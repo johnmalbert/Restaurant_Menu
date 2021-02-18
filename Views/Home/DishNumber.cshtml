@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .checked {
+        color: orange;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.CurrentDish.Name</h1>
+    <h1 class="display-8 border-top">@ViewBag.CurrentDish.Chef</h1>
+    <div class="container text-center p-5 border mb-3">
+        <h1 class="display-5">@ViewBag.CurrentDish.Description</h1>
+        <div class="row text-left mt-5">
+            <div class="col">
+                <h1 class="display-5"><strong>Tastiness:</h1>
+                @for (int i = 0; i < @ViewBag.CurrentDish.Tastiness; i++)
+                {
+                    <span class="fa fa-star fa-5x checked"></span>
+                }
+            </div>
+            <div class="col text-left">
+                <h1 class="display-5"><strong>Calories: </strong>@ViewBag.CurrentDish.Calories</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <a href="@ViewBag.CurrentDish.DishId/Delete"><button class="btn btn-primary">Delete</button></a>
+        </div>
+        <div class="col">
+            <a href="@ViewBag.CurrentDish.DishId/update"><button class="btn btn-primary">Edit</button></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <span id="rateMe4" class="feedback"></span>
+</div>
