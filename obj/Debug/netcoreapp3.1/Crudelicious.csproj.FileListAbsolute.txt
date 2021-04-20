@@ -1,6 +1,5 @@
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\Crudelicious.exe
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\Crudelicious.deps.json
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\netcoreapp3.1\Crudelicious.runtimeconfig.json
@@ -61,3 +60,4 @@ C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\bin\Debug\n
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\Add.cshtml.g.cs
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\DishNumber.cshtml.g.cs
 C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\obj\Debug\netcoreapp3.1\Razor\Views\Home\Update.cshtml.g.cs
+C:\Users\johnm\Documents\Coding_Dojo\C#\Assignments\MVC\Crudelicious\obj\Debug\netcoreapp3.1\scopedcss\bundle\Crudelicious.styles.css
